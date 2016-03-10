@@ -1,7 +1,17 @@
 
-nav { 
+body {
+    
+    background:#fff url(time/back.gif) no-repeat top left;
+                -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+nav {
     position: relative; width: auto;   
-		float: right; padding-right: 10px ; font: 14px Arial;}
+		float: center; padding-right: 10px ; font: 14px Arial;}
 nav ul{list-style:none; margin:0; padding-left: 5px; padding:0;} 
 
 .navigation { width: 100%; }
@@ -13,19 +23,19 @@ nav > ul > li > a { padding: 0px 20px 0px 20px; width: 200px;}
 
 a.btn {
 		display: inline-block;
-		border: 1px solid rgba(255,255,255,.5);
+		
 		padding: 3px 20px 5px 10px;
 		text-decoration:none;
 		letter-spacing: 2px;
 		margin: 10px 0px 10px 0px;
-		color: black;
+		color: white;
 		width: 120px;
 		transition-property: all 1s;
 		position: relative;
 		overflow: hidden;
 		}
 
-a.btn:hover {  border-color: black; letter-spacing:5px;} 
+a.btn:hover { border: 1px solid rgba(255,255,255,.5); border-color: white; letter-spacing:5px;} 
 
 ul > li:hover >ul { display: block;}
 a.btn::after {
@@ -33,7 +43,7 @@ a.btn::after {
 			display: block;
 			width: 10px;
 			height: 100px;
-			background-color: black;
+			background-color: white;
 			position: absolute;
 			top : 0 px;
 			left: -10px;
@@ -43,41 +53,19 @@ a.btn::after {
 a.btn:hover::after {left: 10px;}
 
 
-.slides { padding: 50px 60px 0px 60px;  }
+
+
+.text { 
+    margin-top: auto;
+padding-top: 80px;
+padding-left: 300px;
+
+overflow: hidden;}
+
+
+
+.slides {  padding: 300px 60px 0px 60px;  }
 .slides .gallery { border: 1px solid black; margin: 30px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
